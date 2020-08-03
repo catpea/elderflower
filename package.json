@@ -1,5 +1,5 @@
 {
-  "name": "elderflower",
+  "name": "@catpea/elderflower",
   "version": "1.0.0",
   "main": "index.mjs",
   "bin": {
@@ -8,6 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "autoprefixer": "^9.8.5",
     "beautiful-pagination": "^1.0.0",
@@ -46,5 +47,5 @@
     "url": "https://github.com/catpea/elderflower/issues"
   },
   "homepage": "https://github.com/catpea/elderflower#readme",
-  "description": ""
+  "description": "Template engine."
 }
