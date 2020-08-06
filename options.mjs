@@ -1,9 +1,17 @@
 const options = {
-  title: 'Poetry',
-  author: 'Dr. Meow',
 
-  source: 'https://github.com/catpea/poetry',
-  website: 'http://catpea.com',
+  variables:{
+    title: '',
+    subtitle: '',
+    author: '',
+    email: '',
+    version: '',
+
+    website: '',
+    canonical: '',
+    sourcecode: '',
+  },
+
 
   // Database Containing Posts
   sourceDatabase: {
@@ -27,10 +35,10 @@ const options = {
   },
 
 
+
   // Configuration for the poetry book generation
   website: {
-
-    canonical: 'https://catpea.com/',
+ 
     directory: 'poetry-book',
     partials: 'partials',
 
