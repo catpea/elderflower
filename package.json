@@ -1,6 +1,6 @@
 {
   "name": "elderflower",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.mjs",
   "bin": {
     "elderflower": "index.mjs"
@@ -8,7 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "autoprefixer": "^9.8.5",
     "beautiful-pagination": "^1.0.0",
